@@ -7,7 +7,7 @@ corpo = window.document.getElementById('corpo')
 
 txtHora.innerHTML = `Agora são ${horario} horas`
 
-if (horario >= 18 && horario < 0) {
+if (horario >= 18 && horario < 24) {
     imagem.innerHTML = `<img src="imagens/noite.jpg" alt="foto noite">`
     corpo.style.background = 'rgb(66, 66, 87)'
 } else if (horario >= 0 && horario < 12) {
