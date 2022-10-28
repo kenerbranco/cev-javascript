@@ -1,0 +1,1 @@
+let cadvalor = window.document.getElementById('txtcad')
