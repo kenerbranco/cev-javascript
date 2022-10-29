@@ -7,7 +7,7 @@
     <title>Analisador de Números</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <h1>Analisador de Números</h1>
     </header>
@@ -20,12 +20,13 @@
             </p>
             <p>
                 <select name="txtcad" id="txtcad" size="10">
-                    <option></option>
+
                 </select>
+                <input type="button" value="Finalizar" onclick="finalizar()">
             </p>
         </div>
-        <div>
-            Olá!
+        <div id="res">
+            
         </div>
     </section>
     <footer>
