@@ -39,6 +39,8 @@ function adicionar() {
             tab.appendChild(item)
         }
     }
+    num.value = '' // Apaga número digitado da box
+    num.focus() // Coloca barra de digitação dentro da box
 }
 
 function finalizar() {
