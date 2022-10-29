@@ -1,10 +1,3 @@
-function carregar() {
-    let tab = window.document.getElementById('txtcad')
-    let item = document.createElement('option')
-    item.text = `-----------------------------`
-    tab.appendChild(item)
-}
-
 function arrayCad(num) {
     array.push(num)
 }
